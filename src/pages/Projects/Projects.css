@@ -1,0 +1,17 @@
+.projects h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.page-description {
+  color: #666;
+  margin-bottom: 3rem;
+  max-width: 700px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}

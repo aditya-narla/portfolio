@@ -1,0 +1,21 @@
+:root {
+  --text-primary: #333;
+  --text-secondary: #666;
+  --bg-primary: #fff;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  width: 100%;
+}
