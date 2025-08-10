@@ -1,8 +1,8 @@
 import './Experience.css';
-import type { Experience } from '../../types';
+import type { ExperienceType } from '../../types';
 
 function Experience() {
-    const experiences: Experience[] = [
+    const experiences: ExperienceType[] = [
         {
             id: 1,
             title: "Software Engineer Intern",

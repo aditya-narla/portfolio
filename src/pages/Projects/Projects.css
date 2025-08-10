@@ -1,3 +1,27 @@
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .projects h1 {
+    font-size: 1.75rem;
+  }
+  
+  .page-description {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    gap: 1rem;
+  }
+}
+
 .projects h1 {
   margin-bottom: 1rem;
   color: #333;
@@ -14,4 +38,5 @@
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  padding: 0;
 }

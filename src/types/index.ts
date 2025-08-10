@@ -7,7 +7,7 @@ export interface Project {
   liveLink?: string;
 }
 
-export interface Experience {
+export interface ExperienceType {
   id: number;
   title: string;
   company: string;
