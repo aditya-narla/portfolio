@@ -5,6 +5,7 @@ import Experience from './pages/Experience/Experience';
 import Projects from './pages/Projects/Projects';
 import { Route, HashRouter, Routes } from 'react-router-dom';
 import Navbar from './components/Layout/Navbar';
+import Footer from './components/Layout/Footer';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
             <Route path='/experience' element={<Experience />} />
           </Routes>
         </main>
+
+        <Footer />
 
       </div>
     </HashRouter>
