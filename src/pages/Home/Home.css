@@ -1,32 +1,33 @@
+/* src/pages/Home/Home.css */
 .hero {
   text-align: center;
   padding: 4rem 0;
 }
 
-.heroTitle {
+.hero-title {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.accentText {
+.accent-text {
   color: #2563eb;
 }
 
-.heroSubtitle {
+.hero-subtitle {
   font-size: 1.25rem;
   color: #666;
   margin-bottom: 1rem;
 }
 
-.heroDescription {
+.hero-description {
   max-width: 700px;
   margin: 0 auto 2rem;
   color: #666;
   line-height: 1.8;
 }
 
-.heroButtons {
+.hero-buttons {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -42,22 +43,22 @@
   display: inline-block;
 }
 
-.btnPrimary {
+.btn-primary {
   background: #2563eb;
   color: white;
 }
 
-.btnPrimary:hover {
+.btn-primary:hover {
   background: #1d4ed8;
   transform: translateY(-2px);
 }
 
-.btnSecondary {
+.btn-secondary {
   background: #f3f4f6;
   color: #333;
   border: 1px solid #e5e7eb;
 }
 
-.btnSecondary:hover {
+.btn-secondary:hover {
   background: #e5e7eb;
 }
